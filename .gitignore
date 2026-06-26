@@ -1,0 +1,39 @@
+@"
+# Virtual environments
+venv/
+venv311/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Model weights (large files)
+models/*.pt
+models/*.h5
+
+# Generated output
+output/midi/*.mid
+output/audio/*.txt
+
+# Preprocessed data
+data/X.npy
+data/y.npy
+data/*.pkl
+
+# Plots
+models/*.png
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+"@ | Out-File -FilePath .gitignore -Encoding utf8
